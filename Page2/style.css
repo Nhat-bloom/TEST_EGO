@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Instrument Serif', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF9F5;
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 58px;
+    text-align: center;
+    margin: 30px 0;
+    color: #462B20;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+
+.box,
+.box1 {
+    width: 100%;
+    max-width: 700px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+
+.select {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    margin: 20px 0;
+    font-size: 26px;
+    color: #462B20;
+}
+
+
+.icon img {
+    display: block;
+    width: 20px;
+    height: auto;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(70, 43, 32, 0.85);
+    font-size: 15px;
+    width: 100%;
+    max-width: 499px;
+    height: auto;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 36px;
+    }
+
+    .select {
+        font-size: 20px;
+    }
+
+    .box,
+    .box1 {
+        width: 100%;
+    }
+
+    p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .select {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+}
